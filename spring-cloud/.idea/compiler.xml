@@ -9,16 +9,24 @@
         <module name="spring-cloud" />
         <module name="spring-cloud-consumer" />
         <module name="spring-cloud-consumer-hystrix-dashboard" />
+        <module name="spring-cloud-consumer-node1" />
+        <module name="spring-cloud-consumer-node2" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-hystrix-dashboard-turbine" />
         <module name="spring-cloud-producer" />
+        <module name="spring-cloud-producer1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-cloud" target="1.8" />
       <module name="spring-cloud-consumer" target="1.8" />
       <module name="spring-cloud-consumer-hystrix-dashboard" target="1.8" />
+      <module name="spring-cloud-consumer-node1" target="1.8" />
+      <module name="spring-cloud-consumer-node2" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-hystrix-dashboard-turbine" target="1.8" />
       <module name="spring-cloud-producer" target="1.8" />
+      <module name="spring-cloud-producer1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,8 +34,12 @@
       <module name="spring-cloud" options="-parameters" />
       <module name="spring-cloud-consumer" options="-parameters" />
       <module name="spring-cloud-consumer-hystrix-dashboard" options="-parameters" />
+      <module name="spring-cloud-consumer-node1" options="-parameters" />
+      <module name="spring-cloud-consumer-node2" options="-parameters" />
       <module name="spring-cloud-eureka" options="-parameters" />
+      <module name="spring-cloud-hystrix-dashboard-turbine" options="-parameters" />
       <module name="spring-cloud-producer" options="-parameters" />
+      <module name="spring-cloud-producer1" options="-parameters" />
     </option>
   </component>
 </project>

@@ -47,6 +47,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>2.1.1.RELEASE</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -63,8 +70,13 @@
     <modules>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-producer</module>
+        <module>spring-cloud-producer1</module>
         <module>spring-cloud-consumer</module>
         <module>spring-cloud-consumer-hystrix-dashboard</module>
+        <module>spring-cloud-consumer-node1</module>
+        <module>spring-cloud-consumer-node2</module>
+        <module>spring-cloud-hystrix-dashboard-turbine</module>
+
     </modules>
 
     <build>

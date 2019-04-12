@@ -4,7 +4,11 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-consumer-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consumer-node1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consumer-node2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-producer1" charset="UTF-8" />
   </component>
 </project>

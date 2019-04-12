@@ -5,8 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer/spring-cloud-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-hystrix-dashboard/spring-cloud-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-hystrix-dashboard/spring-cloud-consumer-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-node1/spring-cloud-consumer-node1.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-node1/spring-cloud-consumer-node1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consumer-node2/spring-cloud-consumer-node2.iml" filepath="$PROJECT_DIR$/spring-cloud-consumer-node2/spring-cloud-consumer-node2.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-turbine/spring-cloud-hystrix-dashboard-turbine.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-turbine/spring-cloud-hystrix-dashboard-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" filepath="$PROJECT_DIR$/spring-cloud-producer/spring-cloud-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-producer1/spring-cloud-producer1.iml" filepath="$PROJECT_DIR$/spring-cloud-producer1/spring-cloud-producer1.iml" />
     </modules>
   </component>
 </project>
