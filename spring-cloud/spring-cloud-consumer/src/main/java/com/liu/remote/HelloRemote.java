@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author 刘志虎
  * @date 2019/4/11 23:20
  */
+
 @FeignClient(name = "spring-cloud-producer")
 public interface HelloRemote {
 

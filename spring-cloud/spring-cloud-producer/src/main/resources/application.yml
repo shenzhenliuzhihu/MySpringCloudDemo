@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+# spring.application.name 用于指定注册服务到Eureka Server上的应用名称
+  application:
+    name: spring-cloud-producer
+eureka:
+  client:
+    service-url:
+# eureka.client. service-url. defaultZone 设置的是与Eureka Server的交互地址，查询和注册服务都依赖这个地址，如果有多个可以使用英文逗号分隔。
+      defaultZone: http://10.10.18.195:8000/eureka/
+  instance:
+# eureka.instance.prefer-ip-address 表示将自己的ip注册到Eureka Server上，如果是false的话会显示hostname而不是ip地址。
+    prefer-ip-address: true

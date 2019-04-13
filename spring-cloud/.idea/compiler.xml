@@ -6,12 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-cloud" />
         <module name="spring-cloud-consumer" />
-        <module name="spring-cloud-consumer-hystrix-dashboard" />
-        <module name="spring-cloud-consumer-node1" />
         <module name="spring-cloud-consumer-node2" />
+        <module name="spring-cloud-consumer-node1" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-consumer-hystrix-dashboard" />
         <module name="spring-cloud-hystrix-dashboard-turbine" />
         <module name="spring-cloud-producer" />
         <module name="spring-cloud-producer1" />
@@ -31,7 +30,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-cloud" options="-parameters" />
+      <module name="spring-cloud" options="" />
       <module name="spring-cloud-consumer" options="-parameters" />
       <module name="spring-cloud-consumer-hystrix-dashboard" options="-parameters" />
       <module name="spring-cloud-consumer-node1" options="-parameters" />

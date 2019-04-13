@@ -13,6 +13,6 @@ public class HelloController {
 
     @RequestMapping("/{name}")
     public String index(@PathVariable("name") String name){
-        return "hello"+name+"，this is first producer";
+        return "hello "+name+"，this is producer 2  send first messge";
     }
 }
